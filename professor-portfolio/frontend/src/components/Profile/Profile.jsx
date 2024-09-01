@@ -94,7 +94,7 @@ function Profile() {
           arunverma59@gmail.com
         </p>
         <button className="texting bg-black text-white px-4 py-2 rounded hover:bg-white hover:text-black hover:ring-2 hover:ring-black transition">
-          Change Password
+          Change User Details
         </button>
       </div>
 

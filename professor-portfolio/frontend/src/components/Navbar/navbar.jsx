@@ -75,7 +75,7 @@ function Navbar() {
               {isPeopleDropdownOpen && (
                 <div className="absolute left-0 mt-2 w-48 bg-white shadow-lg rounded-md z-50">
                   {/* Dropdown Items */}
-                  <Link className="block px-4 font-semibold py-2 text-sm text-gray-700 hover:bg-gray-100" to="/phd" onClick={togglePeopleDropdown}>
+                  <Link className="block px-4 font-semibold py-2 text-sm text-gray-700 hover:bg-gray-100" to="/intern" onClick={togglePeopleDropdown}>
                     PDF
                   </Link>
                   <Link className="block px-4 font-semibold py-2 text-sm text-gray-700 hover:bg-gray-100" to="/intern" onClick={togglePeopleDropdown}>
@@ -87,10 +87,10 @@ function Navbar() {
                   <Link className="block px-4 font-semibold py-2 text-sm text-gray-700 hover:bg-gray-100" to="/intern" onClick={togglePeopleDropdown}>
                     SRF
                   </Link>
-                  <Link className="block px-4 font-semibold py-2 text-sm text-gray-700 hover:bg-gray-100" to="/phd" onClick={togglePeopleDropdown}>
+                  <Link className="block px-4 font-semibold py-2 text-sm text-gray-700 hover:bg-gray-100" to="/intern" onClick={togglePeopleDropdown}>
                     Mtech
                   </Link>
-                  <Link className="block px-4 font-semibold py-2 text-sm text-gray-700 hover:bg-gray-100" to="/phd" onClick={togglePeopleDropdown}>
+                  <Link className="block px-4 font-semibold py-2 text-sm text-gray-700 hover:bg-gray-100" to="/intern" onClick={togglePeopleDropdown}>
                     Btech
                   </Link>  
                 </div>
@@ -108,7 +108,7 @@ function Navbar() {
               {isPublicationsDropdownOpen && (
                 <div className="absolute left-0 mt-2 w-48 bg-white shadow-lg rounded-md z-50">
                   {/* Dropdown Items */}
-                  <Link className="block px-4 font-semibold py-2 text-sm text-gray-700 hover:bg-gray-100" to="/phd" onClick={togglePublicationsDropdown}>
+                  <Link className="block px-4 font-semibold py-2 text-sm text-gray-700 hover:bg-gray-100" to="/intern" onClick={togglePublicationsDropdown}>
                     Journal
                   </Link>
                   <Link className="block px-4 font-semibold py-2 text-sm text-gray-700 hover:bg-gray-100" to="/intern" onClick={togglePublicationsDropdown}>
@@ -153,7 +153,7 @@ function Navbar() {
               {isPeopleDropdownOpen && (
                 <div className="mt-2 roberto w-36 bg-white shadow-lg rounded-md z-50">
                   {/* Dropdown Items */}
-                  <Link className="block px-4 font-semibold py-2 text-sm text-gray-700 hover:bg-gray-100" to="/phd" onClick={togglePeopleDropdown}>
+                  <Link className="block px-4 font-semibold py-2 text-sm text-gray-700 hover:bg-gray-100" to="/intern" onClick={togglePeopleDropdown}>
                     PDF
                   </Link>
                   <Link className="block px-4 font-semibold py-2 text-sm text-gray-700 hover:bg-gray-100" to="/intern" onClick={togglePeopleDropdown}>
@@ -165,10 +165,10 @@ function Navbar() {
                   <Link className="block px-4 font-semibold py-2 text-sm text-gray-700 hover:bg-gray-100" to="/intern" onClick={togglePeopleDropdown}>
                     SRF
                   </Link>
-                  <Link className="block px-4 font-semibold py-2 text-sm text-gray-700 hover:bg-gray-100" to="/phd" onClick={togglePeopleDropdown}>
+                  <Link className="block px-4 font-semibold py-2 text-sm text-gray-700 hover:bg-gray-100" to="/intern" onClick={togglePeopleDropdown}>
                     Mtech
                   </Link>
-                  <Link className="block px-4 font-semibold py-2 text-sm text-gray-700 hover:bg-gray-100" to="/phd" onClick={togglePeopleDropdown}>
+                  <Link className="block px-4 font-semibold py-2 text-sm text-gray-700 hover:bg-gray-100" to="/intern" onClick={togglePeopleDropdown}>
                     Btech
                   </Link>
                 </div>
@@ -188,7 +188,7 @@ function Navbar() {
               {isPublicationsDropdownOpen && (
                 <div className="mt-2 roberto w-36  bg-white shadow-lg rounded-md z-50">
                   {/* Dropdown Items */}
-                  <Link className="block px-4 font-semibold py-2 text-sm text-gray-700 hover:bg-gray-100" to="/phd" onClick={togglePublicationsDropdown}>
+                  <Link className="block px-4 font-semibold py-2 text-sm text-gray-700 hover:bg-gray-100" to="/intern" onClick={togglePublicationsDropdown}>
                     Journal
                   </Link>
                   <Link className="block px-4 font-semibold py-2 text-sm text-gray-700 hover:bg-gray-100" to="/intern" onClick={togglePublicationsDropdown}>
