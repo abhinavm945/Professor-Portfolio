@@ -57,17 +57,11 @@ function App() {
             element={isUserLoggedIn ? <Profile /> : <Navigate to="/login" />}
           />
 
-<<<<<<< HEAD
-          {/* Catch-all Route for NotFound */}
-=======
           <Route path="/profile" element={<Profile />} />
           {/* <Route path="/registration" element={<Registration />} /> */}
           <Route path="/publications" element={<Publications />} />
-          <Route path="/timeline" element={<Timeline/>} />
-        
+          <Route path="/timeline" element={<Timeline />} />
 
-
->>>>>>> 124d8c1b602f9aae2d17f91adeb68a49270d4341
           <Route path="*" element={<NotFound />} />
         </Routes>
         <Footer />
